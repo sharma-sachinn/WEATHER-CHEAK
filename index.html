@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link
+    href="https://cdn.jsdelivr.net/npm/remixicon@4.1.0/fonts/remixicon.css"
+    rel="stylesheet"
+/>
+    <link rel="stylesheet" href="styles.css">
+
+</head>
+<body>
+     <div class="container">
+        <div class="header">
+            <div class="search-box">
+                <input type="text" placeholder="enter your location" class="input-box">
+
+
+                <button><i class="ri-search-line" id="searchbtn"></i></button>
+            </div>
+        </div>
+     
+        <div class="weather-body">
+            <img src="ASSETS/DEFAULT.png" alt="weather-image" class="weather-image">
+            <div class="weather-box">
+                <p class="temp">0<sup>°C</sup></p>
+                <p class="description"></p>
+            </div>
+            <div class="weather-details">
+                <div class="humidity">
+                    <i class="ri-water-percent-fill"></i>
+                    <div class="text">
+                        <span id="humidity">%</span>
+                        <p>humidity</p>
+                    </div>
+
+                </div>
+                <div class="wind">
+                    <i class="ri-windy-line"></i>
+                    <div class="text">
+                        <span id="wind-speed">km/h</span>
+                        <p>wind speed</p>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+    <script src="https://kit.fontawesome.com/98e6dd9df0.js" crossorigin="anonymous"></script>
+</body>
+</html>
